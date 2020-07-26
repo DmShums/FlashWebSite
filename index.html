@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Flesh.dance.lviv</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <!--Jquery CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/glide.core.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/glide.theme.min.css" />
+</head>
+
+<body>
+  <header class="showcase">
+    <div class="container-header">
+          <nav>
+            <h1 class="logo">Flesh.dance.lviv</h1>
+            <ul id="myMediaLinks">
+              <li><a href="#gallery-link">Галерея</a></li>
+              <li><a href="#schedule-link">Графік занять</a></li>
+            </ul>
+            <!-- while max-width: 600;-->
+            <!-- <ul class="myLinks1" id="myLinks1">
+              <li><a href="#gallery-link">Галерея</a></li>
+              <li><a href="#schedule-link">Графік занять</a></li>
+            </ul> -->
+          </nav>
+          <!-- Burger -->
+          <div id="mySidenav" class="sidenav">
+            <a class="closebtn" style="cursor:pointer" id="closeButton" onclick="closeNav() ">&times;</a>
+            <a class="nav-main" href="./index.html">Головна</a>
+            <a class="nav-list" href="./list.html">Всі дописи</a>
+          </div>
+          
+          <div id="main">
+              <a id="burgerSpan" onclick="openNav()" style="cursor:pointer">
+                  <div class="toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+                </a>
+          </div>
+
+      <div class="showcase-content">
+        <div class="showcase-content-textLabel">
+          <h1>Клуб спортивного бального танцю</h1>
+          <p class="my-1">
+            Гурток бальних танців у Львові
+          </p>
+          <a href="#contact-link" class="btn-secondary">Контакти</a>
+        </div>
+        <img class="dancers-image"
+          src="img/dancingPNG.png"
+        />
+      </div>
+    </div>
+  </header>
+  
+
+
+  <div class="informDiv">
+    <h1 class="aboutLabel">Про нас</h1>
+    <div class="colorDiv1">
+        <div class="container">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide"><img src="img/helloween.jpg" alt=""></li>
+                  <li class="glide__slide"><img src="img/resizedTogether.jpg" alt=""></li>
+                  <li class="glide__slide"><img src="img/luchesk.jpg" alt=""></li>
+                  <li class="glide__slide"><img src="img/parade.jpg" alt=""></li>
+                  <li class="glide__slide"><img src="img/GettingCup.jpg" alt=""></li>
+                </ul>
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="img/arrow.png" alt=""></button>
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="img/arrow.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div><p>Бальні танці існують вже не перше століття, при тому вони продовжують невпинно розвиватися, з кожним роком виходячи на новий рівень. Кожен охочий, маючи бажання, може оволодіти майстерністю бального танцю.Наш клуб існує вже більше восьми років і постійно рухається вперед, навчаючи майбутніх чемпіонів та хореографів. Ви можете долучитися до нашої танцювальної сім'ї та стати справжнім бальним танцівником. Гурток підходить усім хто бажає навчитись добре танцювати. Також ми можемо вам для початку запропонувати індивідуальні заняття з тренером, який визначить вашу манеру танцю і допоможе правильно почати.</p></div>
+    </div>
+    <h1 id = "schedule-link" class="scheduleLabel">Графік занять</h1>
+    <div class="colorDiv2">
+
+      <div class="s-cards">
+        <div class="cards">
+          <div class="card card--abo">
+            <h3 class="card__heading card--abo__heading"><span>Понеділок</span></h3>
+            <p class="card__desc card--abo__desc"><h5>Танцювальна програма:</h5>—Стандарт<h5>Час занять:</h5>18:30–20:00</p>
+          </div>
+          <div class="card card--abo">
+            <h3 class="card__heading card--abo__heading"><span>Середа</span></h3>
+            <p class="card__desc card--abo__desc"><h5>Танцювальна програма:</h5>—Латина<h5>Час занять:</h5>18:30–20:00</p>
+          </div>
+          <div class="card card--abo">
+            <h3 class="card__heading card--abo__heading"><span>П'ятниця</span></h3>
+            <p class="card__desc card--abo__desc"><h5>Танцювальна програма:</h5>—Обидві(практика)<h5>Час занять:</h5>18:30–20:00</p>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </div>
+
+
+
+<!-- Button trigger modal -->
+<h3 id="gallery-link" class="galleryLabel">Галерея</h3>
+<div class="gallery">
+  <section class="imgSection">
+    <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/diadema.jpg">
+    <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/nastia&vadym.jpg">
+    <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/preparing.jpg">
+  </section>
+  <section class="imgSection">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/Dmytro&Yaryna.jpg">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/nast.jpg">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/winners.jpg">
+  </section>
+  <section class="imgSection">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/S&Dwinners.jpg">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/judje.jpg">
+      <img class="btnImg" data-toggle="modal" data-target="#exampleModal" src="img/V&N.jpg">
+  </section>
+    
+    
+</div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/bgim.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+  <footer id="contact-link" class="page-footer font-small">
+    <div class="higher-part">
+      <div class="social-media">
+        <p>Ми у соцмережах:</p>
+        <a href="https://www.facebook.com/groups/907145672762395/#_=_"><img class="facebook" src="img/facebookIcon.svg"></a>
+        <a href="https://www.instagram.com/flesh.dance.lviv/"><img class="instagram" src="img/instagramIcon.svg"></a>
+        <p class="phone-number-p">Номер телефону:</p>
+        <a href=”tel:+380937119713”>+380 93 711 9713</a>
+      </div>
+      <div class="adress">
+        <p class="p1">Адреса:</p>
+        <p>Степана Бандери 14<br>
+          Львів<br>
+          Львівська область<br>
+          Україна<br>
+          79013<br>
+        </p>
+      </div>
+    </div>
+    <div class="contact-box">
+      <p class="contact-box__heading">Залиште ваш номер, і ми вам зателефонуємо.</p>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+      <form class="contact-box__input-wrapper contact-box__form"
+          action="https://usebasin.com/f/4ea48e97bdcf"
+          target="hidden_iframe" method="POST" id="mG61Hd" class="contact-box__form">
+          <input placeholder="+380(XX)-XXX-XX-XX" type="text" class="contact-box__input" aria-label="Номер телефону" name="entry.850626660"
+              minlength="4" required>
+          <button type="submit" class="contact-box__btn">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                  y="0px" viewBox="-15 -15 74 74" style="enable-background:new 0 0 44 44;" xml:space="preserve">
+                  <g class="arrow-layer">
+                      <g class="arrow">
+                          <!-- <line class="st0" x1="41.7" y1="22" x2="2.3" y2="22" /> -->
+                          <g>
+                              <line class="st1" x1="38.44" y1="22" x2="2.3" y2="22" />
+                              <g>
+                                  <polygon class="arrow-head"
+                                      points="28.5,9.73 26.46,11.93 37.29,22 26.46,32.07 28.5,34.27 41.7,22 				" />
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+                  <g class="tick-layer">
+                      <polyline class="tick st2" points="4,25 16,37 40,7 	" />
+                  </g>
+              </svg>
+          </button>
+      </form>
+  </footer>
+</body>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+     $(".colorDivGallery").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }); -->
+<!-- </script> -->
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+<script>
+  new Glide('.glide',{type: "carousel", autoplay: 6000}).mount()
+</script>
+
+<script src="script.js"></script>
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+
+</html>
