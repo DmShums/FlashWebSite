@@ -48,38 +48,7 @@ function revert() {
   heading.innerHTML = "Ваш номер телефону:";
 }
 
-
-
-
-
-//burger menu wrong version
-// $(document).ready(function(){
-//   $(".toggle").click(function(){
-//     $(".toggle").toggleClass("active")
-//   })
-// })
-
-// var w = window.innerWidth;
-// let a = document.getElementById("myLinks1")
-// if ( w < 600){
-//   a.style.display = "none"
-// }
-// let b = document.getElementById("myMediaLinks")
-// if ( w > 600){
-//   b.style.display = "none";
-// }
-
-
-//   function myFunction() {
-//     var x = document.getElementById("myMediaLinks");
-//     if (x.style.display === "block") {
-//       x.style.display = "none";
-//     } else {
-//       x.style.display = "block";
-//     }
-//   }
-
-//burger menu correct vesion
+//burger menu
 //menu
 const a = document.getElementById("mySidenav"),
       b = document.getElementById("main"),
