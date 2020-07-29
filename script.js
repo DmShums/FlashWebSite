@@ -54,7 +54,9 @@ const a = document.getElementById("mySidenav"),
       b = document.getElementById("main"),
       c = document.querySelector('.toggle'),
       burgerSpan = document.getElementById('burgerSpan'),
-      btn = document.getElementById("closeButton");
+      btn = document.getElementById("closeButton"),
+      navMain = document.querySelector('.nav-main'),
+      navList = document.querySelector('.nav-list');
    
 if (burgerSpan.hasAttribute( "onClick", "closeNav()")){
   c.addEventListener("click", function(){c.classList.add("active")})
@@ -62,6 +64,14 @@ if (burgerSpan.hasAttribute( "onClick", "closeNav()")){
 
 if (burgerSpan.hasAttribute( "onClick", "openNav()")){
   btn.addEventListener("click", function(){c.classList.remove("active")})
+}
+//while clicking on nav elemen
+if (burgerSpan.hasAttribute( "onClick", "openNav()")){
+  navMain.addEventListener("click", function(){c.classList.remove("active")})
+}
+
+if (burgerSpan.hasAttribute( "onClick", "openNav()")){
+  navList.addEventListener("click", function(){c.classList.remove("active")})
 }
 
 function openNav() {
@@ -79,3 +89,4 @@ function closeNav() {
     c.classList.add("active")
   })
 }
+
